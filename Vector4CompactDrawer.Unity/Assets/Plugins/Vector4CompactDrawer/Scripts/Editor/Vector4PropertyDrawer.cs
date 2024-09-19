@@ -15,8 +15,11 @@ namespace Vector4CompactDrawer.Editor
 
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
         {
-            property.Next(true);
-            EditorGUI.MultiPropertyField(position, _fieldLabels, property, label);
+            using (new EditorGUI.PropertyScope(position, label, property))
+            {
+                SerializedProperty firstChildProperty = property.FindPropertyRelative(_fieldNames.First());
+                EditorGUI.MultiPropertyField(position, _fieldLabels, firstChildProperty, label);
+            }
         }
 
         public override float GetPropertyHeight(SerializedProperty property, GUIContent label) =>
