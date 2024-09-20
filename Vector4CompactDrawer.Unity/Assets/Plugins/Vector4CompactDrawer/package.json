@@ -12,7 +12,7 @@
     {
       "displayName": "Showcase",
       "description": "Simple demonstration of the Vector4 Compact Drawer in action with prefab variants handling.",
-      "path"       : "Samples~/Showcase"
+      "path"       : "Samples~/Vector4CompactDrawer/Showcase"
     }
   ],
   "keywords"        : [

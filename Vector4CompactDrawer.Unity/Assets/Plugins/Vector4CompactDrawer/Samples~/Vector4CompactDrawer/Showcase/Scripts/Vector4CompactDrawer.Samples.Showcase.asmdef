@@ -1,6 +1,6 @@
 {
     "name": "Vector4CompactDrawer.Samples.Showcase",
-    "rootNamespace": "",
+    "rootNamespace": "Vector4CompactDrawer.Samples",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
