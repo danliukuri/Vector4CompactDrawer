@@ -1,0 +1,32 @@
+{
+  "name"            : "com.danliukuri.vector4-compact-drawer",
+  "version"         : "1.0.0",
+  "displayName"     : "Vector4 Compact Drawer",
+  "description"     : "A custom property drawer for Unity that provides an optimized and space-efficient interface for editing Vector4 properties in the Inspector.\n\nThis package is designed to simplify the presentation of vector data, offering a cleaner layout while retaining full functionality.",
+  "documentationUrl": "https://github.com/danliukuri/Vector4CompactDrawer?tab=readme-ov-file",
+  "changelogUrl"    : "https://github.com/danliukuri/Vector4CompactDrawer/releases",
+  "licensesUrl"     : "https://github.com/danliukuri/Vector4CompactDrawer?tab=MIT-1-ov-file",
+  "repository"      : "https://github.com/danliukuri/Vector4CompactDrawer",
+  "homepage"        : "https://github.com/danliukuri/Vector4CompactDrawer",
+  "samples"         : [
+    {
+      "displayName": "Showcase",
+      "description": "Simple demonstration of the Vector4 Compact Drawer in action with prefab variants handling.",
+      "path"       : "Samples~/Showcase"
+    }
+  ],
+  "keywords"        : [
+    "vector4",
+    "vector field",
+    "propety drawer",
+    "compact layout",
+    "inspector customization",
+    "editor tools",
+    "ui optimization"
+  ],
+  "author"          : {
+    "name" : "Yuriy Danyliuk",
+    "email": "danyliuk.yuriy@gmail.com",
+    "url"  : "https://github.com/danliukuri"
+  }
+}
